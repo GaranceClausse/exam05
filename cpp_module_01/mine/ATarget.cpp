@@ -20,7 +20,6 @@ ATarget &ATarget::operator=(ATarget const &cpy)
 
 ATarget::~ATarget() {}
 
-std::string const &ATarget::getType() const { return (this->type);}
 
 void	ATarget::getHitBySpell(ASpell const &aspell_ref) const
 {

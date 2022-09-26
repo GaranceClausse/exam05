@@ -8,9 +8,7 @@ class ATarget;
 class	ASpell {
 		protected:
 			std::string	name;
-			std::string	effects;
-
-			
+			std::string	effects;			
 
 		public :
 			ASpell(std::string const &name, std::string const &effects);
